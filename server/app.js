@@ -6,7 +6,7 @@ import cros from "cors";
 
 // const MONGODB_URL = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@mymongoinit.6md0cxy.mongodb.net/gemini?retryWrites=true&w=majority`;
 const MONGODB_URL = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.rjlzzfk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
-// const PORT_NO = 3030;
+const PORT_NO = process.env.PORT;
 
 const app = express();
 
